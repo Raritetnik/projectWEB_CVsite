@@ -7,30 +7,39 @@
     <link rel="stylesheet" href="css/style-base.css">
     <title>Contact</title>
 </head>
-<body>
+<body class="grid">
+    <div class="grid-item avatar">
+        <img class="avatar" src="images/picture_icon.jpg" width="250px"/>
+        <nav>
+            <p><a href="accueil.html">Accueil</a></p>
+            <p><a href="page-educ.html">Éducation<br/></a></p>
+            <p><a href="page-prof.html">Carrière professionnelle</a></p>
+            <p><a href="page-listProjets.html">Projets réalisés</a></p>
+            <p><a href="contact.html">Contact</a></p>
+            <p><a href="page-valid.html">Validation</a></p>
+        </nav>
+    </div>
     <header>
-        <h1>Mykhaylo Kuzmin</h1>
-        <div class="decoration">  </div>
+        <h1 class="titre">Mykhaylo Kuzmin</h1>
+        <h4 class="sous-titre"> Developpeur WEB</h3>
     </header>
-    <nav class="menu">
-        <div class="espace"></div>
-        <p><a href="accueil.html">Accueil</a></p>
-        <p><a href="page-educ.html">Éducation<br/></a></p>
-        <p><a href="page-prof.html">Carrière professionnelle</a></p>
-        <p><a href="page-listProjets.html">Projets réalisés</a></p>
-        <p><a href="contact.html">Contact</a></p>
-        <p><a href="page-valid.html">Validation</a></p>
-        <div class="espace"></div>
-    </nav>
-    <main class="flex-container">
-            <div> <img class="avatar" src="images/picture_icon.jpg"/></div>
+    <main>
+        <div class="listeProjets">
             <div>
-                <h2>Contact</h2>
+                <h2>Contactez-moi</h2>
                 <h6> ☎️ - (438) xxx - xxxx </h6>
                 <h6> 🌐 - <a class="lienDecor" href="https://www.google.com/ ">https://www.google.com/</a></h6>
-                <h6> 📧 - mkodarenko@gmail.com </h6>
-                
+                <h6> 📧 - mkodarenko@gmail.com </h6> 
             </div>
+            <form>
+                <h2>Laisser un message</h2>
+                <h6>Votre nom: </h6>
+                <input type="text" id="name" name="name" placeholder="Votre nom"/>
+                <h6>Votre commentaire: </h6>
+                <textarea id="commentaire" name="commentaire" placeholder="Entrer votre commentaire"></textarea>
+                <br/><input class="btn" type="submit" value="Envoyer"/>
+            </form>
+        </div>
     </main>
     <footer>
         <p>@Tous les droits sont reserves</p>
