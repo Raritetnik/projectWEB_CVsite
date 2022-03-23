@@ -46,7 +46,7 @@ footer{
 header > h1{
     padding: 0px 0px 0px 50px;
     color: aliceblue;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /* Contenu principale */
@@ -70,20 +70,21 @@ body {
 .accueil-contenu > h2 {
     padding: 0px;
     margin: 5px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: aliceblue;
     
 }
 h1, h2, h3, h4, h5, h6{
     color: aliceblue;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 p {
     margin-right: 5px;
     margin-right: 50px;
     color: aliceblue;
     font-size: 16px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 0.5px;
 }
 
 .flex-container {
